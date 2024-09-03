@@ -1,0 +1,77 @@
+.header{
+    display: flex;
+    height: 70px;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.Barrecss{
+    height: 40px;
+    width: 40px;
+    margin-left: 7px;
+    margin-top: 7px;
+    
+}
+.Backmarketlogocss{
+    height: 60px;
+    
+}
+.deuxlogo img{
+    height: 37px;
+    
+}
+.Barrederecherche{
+    align-content: flex-start;
+    height: 30px;
+    width: 96%;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+
+.Titre-top-vente{
+    font-family: Roboto, Arial;
+    margin-top: 70px;
+}
+.titre1{
+    font-weight: 420;
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+.titre2{
+    font-size: 16px;
+    color: rgba(109, 109, 109, 0.904);
+    margin-top: 1px;
+}
+
+.colone-top-vente{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.Topventes{
+    
+    width: 250px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 9px;
+    align-items: stretch;
+    justify-content: space-around;
+    box-shadow: 0 0 10px rgba(201, 200, 200, 0.904);
+}
+
+.Iphone13{
+    
+    max-width: 100%;
+    margin: none;
+    
+}
+.Iphone13pl{
+    width: 240px;
+}
+.descr-box p{
+    align-items: stretch;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial;
+
+}

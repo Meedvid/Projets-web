@@ -1,0 +1,48 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family:Arial, Helvetica, sans-serif;
+  background-image: url(https://img.freepik.com/photos-premium/paysage-urbain-violet-lueur-violette_667286-2829.jpg);
+  margin-top: 5em;
+}
+
+.contener{
+  background-color: rgba(255, 255, 255, 0.062);
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 1em;
+  padding-bottom: 3em;
+  border-radius: 0.8em;
+  border: 2px solid;
+  border-color: rgba(255, 255, 255, 0.623);
+  backdrop-filter: blur(7px);
+}
+
+h1{
+  margin-bottom: 2em;
+  color: white;
+}
+
+input[type="text"]{
+width: 30em;
+height: 3em;
+border-radius: 4px;
+border: none;
+margin-bottom: 12px;
+backdrop-filter: blur(7px);
+z-index: -1;
+}
+
+button{
+  height: 3em;
+  width: 4em;
+  background-color: rgba(255, 255, 255, 0.514);
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-color: rgba(255, 255, 255, 0.637);
+}

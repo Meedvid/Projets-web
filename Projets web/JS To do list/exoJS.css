@@ -1,0 +1,49 @@
+.title {
+  text-align: center;
+  font-family: "New Amsterdam", sans-serif;
+  margin-top: 3em;
+  color: #b1980e;
+}
+body {
+  background-color: rgb(32, 32, 32);
+}
+#grid-tasks {
+  padding-top: 20px;
+  padding-bottom: 600px;
+  display: grid;
+  place-items: center;
+}
+
+#input-button {
+  padding-top: 4px;
+  padding-bottom: 4px;
+  background-color: white;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 9px;
+}
+
+#Taskbutton {
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: none;
+  border-radius: 4px;
+  color: rgba(0, 0, 0, 0.301);
+  cursor: pointer;
+}
+
+#TaskAdd {
+  padding-left: 100px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: none;
+  color: rgba(0, 0, 0, 0.301);
+}
+
+#Taskdesign {
+  padding-top: 20px;
+  padding-bottom: 600px;
+  display: grid;
+}
